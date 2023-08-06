@@ -38,10 +38,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=https://t.me/TELUGUMOVIESCLUBCHART),
+                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=https://t.me/TELUGUMOVIESCLUBZ)
                  ],[
-                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorrio")
+                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/creatorrio")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
