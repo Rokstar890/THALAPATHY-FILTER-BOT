@@ -6,9 +6,9 @@ Movie Group😍</b>"""
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/THALAPATHYDB_BOT>𝗧𝗛𝗔𝗟𝗔𝗣𝗔𝗧𝗛𝗬 𝗙𝗜𝗟𝗧𝗘𝗥 𝗕𝗢𝗧</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/THALAPATHYDB_BOT>VIJAY✨</a>
  ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/royal_el_latino'>RIO NETWORKS</a> 
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/royal_el_latino'>SAKURA</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -27,7 +27,7 @@ Developer - <a href='https://t.me/creatorrio'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 special Thanks To ❤️ Devs -
 
--Dev 1 [Owner of this bot ]<a href='https://t.me/royal_el_latino'>TEAM RIO</a>
+-Dev 1 [Owner of this bot ]<a href='https://t.me/royal_el_latino'></a>
 
 -Dev 2 [Adding Some Latest Features] <a href='https://t.me/royal_el_latino'>SAKURA</a>
 
