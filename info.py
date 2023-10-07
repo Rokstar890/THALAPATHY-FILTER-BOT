@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25122806'))
-API_HASH = environ.get('API_HASH', 'ad0f14e0d70523a3f22d3c519e16dd70')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6617578943:AAHufHwzFjTCrQUvleQk16udvJiL_YtfsXA")
+API_ID = int(environ.get('API_ID', '23762978'))
+API_HASH = environ.get('API_HASH', 'eff30dac5504a8660e69bfe19f668571')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6540032672:AAF5v15Vmo-qQGqWJvJCPBT3btTUAvm6vbY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,8 +27,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/8269c637e13f693dd
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/8269c637e13f693ddbded.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6581511298').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001881100333').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1216307744').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001394587233').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -37,32 +37,32 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001658278018')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001673445570')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hebapir376:ravi1234@cluster0.x9pmpfx.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "EvaMaria")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f3f667e41d0c6e7806d19061d2e01debd192e247')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+rmTeu1DT6qQ3ZTY1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Telugu_Movies_999')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/vs_Files_Mx_player/7')
+GRP_LNK = environ.get('GRP_LNK', '')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Netflixvilla_india')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Netflixvilla_india/46')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001881100333'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+exL0ODjEWZo3OTRl')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001940288450'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+1bHlq4X5_OAwZjVl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
